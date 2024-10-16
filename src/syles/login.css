@@ -1,0 +1,18 @@
+.login-section {
+    width: 900px;
+    margin: 0 auto;
+    min-height: 100vh;
+    margin-top: 5em;
+}
+
+.login-section form {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 1.8em 3em;
+    border-radius: 0.5em;
+}
+
+.login-section form h2 {
+    padding-bottom: 1.5em;
+}

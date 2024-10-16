@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.home-section {
+    width: 900px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.list-group {
+    border: none;
+}
+
+.list-group-item {
+    height: 100px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    position: relative;
+}
+
+.list-group-item+.list-group-item {
+    border-top: 1px solid #ccc;
+    box-shadow: 0 1 0 0 rgb(0, 0, 0, 0.2);
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: black;
+    padding-right: 19em;
+}
+
+.list-group-item .fa-star {
+    color: #0099fe;
+}
+
+.list-group-item .company {
+    border-left: 1px solid #ccc;
+    top: 2.3em;
+    left: 39em;
+    position: absolute;
+    padding-left: 2em;
+}
