@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card img {
+    width: 500px;
+    display: block;
+    align-items: center;
+    padding-top: 1.2em;
+}
