@@ -3,6 +3,25 @@ body {
     width: 1200px;
 }
 
+.navbar-brand,
+.nav-link {
+    color: #0099fe;
+}
+
+.media {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+.media img{
+    padding: 2em;
+    padding-bottom: 0;
+    padding-top: 0;
+    width: 850px;
+    height: 270px;
+    display: block;
+}
+
 .home-section {
     width: 900px;
     min-height: 100vh;
