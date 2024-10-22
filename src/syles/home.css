@@ -5,7 +5,14 @@ body {
 
 .navbar-brand,
 .nav-link {
-    color: #0099fe;
+    /* color: #0099fe; */
+    color: #526b56;
+}
+
+.navbar-brand img {
+    display: block;
+    width: 120px;
+    height: 80px;
 }
 
 .media {
